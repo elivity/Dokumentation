@@ -1,13 +1,18 @@
 Ziel
 ----
+Erstellen einer App für Android und smartTV
+Regulierung der Fernsehlautstärke an tatsächlicher Lautstärke, gemessen am Smartphone
+Kommunikation der Endgeräte über UPnp und wlan
 
-
-
-Vorleistungen
-----
-
-
+Use Case
+---
+1. Starten der App am Smartphone
+2. Starten des Films
+3. Eingabe der optimalen Lautstärke in dB
+4. Bei signifikanter Überschreitung der Lautstärke, wird die Fernsehrlautstärke verringert
+5. nach Überschreitung, wiederherstellen der optimalen Lautstärke
 
 
 Umsetzung
-----
+---
+Siehe UML
