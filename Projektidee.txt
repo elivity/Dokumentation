@@ -1,18 +1,21 @@
 Ziel
-----
-Erstellen einer App für Android und smartTV
-Regulierung der Fernsehlautstärke an tatsächlicher Lautstärke, gemessen am Smartphone
-Kommunikation der Endgeräte über UPnp und wlan
-
-Use Case
 ---
-1. Starten der App am Smartphone
-2. Starten des Films
-3. Eingabe der optimalen Lautstärke in dB
-4. Bei signifikanter Überschreitung der Lautstärke, wird die Fernsehrlautstärke verringert
-5. nach Überschreitung, wiederherstellen der optimalen Lautstärke
+Es soll eine Webapp fÃ¼r ein Bestellformular erstellt werden. Die Webapp soll Produkte auflisten und diese sollen per Klick in einen Warenkorb gelegt werden.
+
+ZusÃ¤tzlich soll eine Zusammenstellung der gewÃ¤hlten Produkte, neben der Produktauswahl erstellt werden, aus der der Produktname und der Preis ersichtlich wird.
+
+Unter dieser Auflistung soll der Gesamtpreis und die anteilige Mehrwertsteuer ausgegeben werden. 
+
+Die Liste der Produkte inklusive Bild, Titel, Beschreibung und Preis soll Ã¼ber eine seperate administrative Maske gepflegt werden.
+
+Alle Masken sollen Ã¼ber auch bei verkleinern des Fensters ordentlich dargestellt werden. Dies kann Ã¼ber ein responsive Design umgesetzt werden. 
 
 
-Umsetzung
+Ansichten
 ---
-Siehe UML
+Ansicht als User
+Ansicht als Admin
+
+
+Prototype Usermaske: Siehe prototype.html
+
