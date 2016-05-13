@@ -1,0 +1,513 @@
+<style>
+#order-menu {
+background: #fdfdfd;
+overflow: hidden;
+padding: 50px 0px 50px 0px;
+color:#808080;
+}
+
+.order-true {
+  border: 10px solid #e90e84;
+    width: 145px;
+  height:145px;
+}
+
+.order-false {
+  width: 125px;
+  height:125px;
+  margin-top:10px;
+  margin-left:10px;
+}
+
+#order-topping {
+  height:100%;
+  width:100%;
+  float:left;
+  display:block;
+}
+#order-flooring {
+  float:left;
+margin-bottom: 50px;
+}
+
+.design-standard  {
+  float:bottom;
+}
+
+/*#order-flooring-list ul{
+  list-style: none outside none; 
+  margin-right:10px;
+  padding: 5px; 
+  text-align: center;
+  width: 355px;
+  float:left;
+  margin: 0 auto;
+}*/
+
+#order-flooring-list {
+width: 85%;
+margin: 0px auto;
+}
+
+#order-flooring-list li{
+  list-style: none outside none; 
+  margin-right:10px;
+  padding: 5px; 
+  text-align: center;
+  max-width: 355px;
+  float:left;
+  height: 300px;
+}
+
+#order-contact-list{
+  list-style: none outside none; 
+  margin-right:10px;
+  padding: 5px; 
+  text-align: center;
+  float:left;
+  margin: 0 auto;
+}
+
+#order-contact-list li{
+  list-style: none outside none; 
+  margin-right:10px;
+  padding: 5px; 
+  text-align: center;
+  float:left;
+}
+
+#order-topping-list li{
+  list-style: none outside none; margin:0;
+  padding: 0; 
+  text-align: center;
+  
+  float:top;
+}
+
+#order-icon-container {
+padding: 5px;
+border-radius: 4px;
+box-shadow: 0px 1px 0px 2px #fafafa;
+background: white;
+}
+
+#order-icon-text {
+font-weight: bold;
+text-align: right;
+border-bottom: 2px solid #E90E84;;
+font-variant: small-caps;
+margin-bottom: 10px;
+padding-bottom: 5px;
+}
+
+#order-icon-subtext {
+color: #808080;
+font-size: 0.8em;
+text-align: justify;
+float:bottom;
+}
+
+.bulletpic {
+  margin-bottom: 10px;
+  margin-right: 20px;
+  /*margin-left:20px;*/
+  border-radius: 50%;
+  /*margin-bottom: 20px;*/
+  position: relative;
+  /*-webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;*/
+  float:left;
+  background:url('http://www.webalot.de/wp-content/uploads/2016/03/SEO2.png');
+}
+
+.bulletpic:hover {
+  border: 10px solid #808080;
+  width: 145px;
+  height:145px;
+  
+  margin-bottom: 10px;
+  margin-right: 20px;
+  /*margin-left:20px;*/
+  border-radius: 50%;
+  /*margin-bottom: 20px;*/
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  float:left;
+}
+
+
+.bullet-social {
+  background:url('http://www.webalot.de/wp-content/uploads/2016/03/sociallink.png');
+}
+
+.bullet-simple {
+  background:url('http://www.webalot.de/wp-content/uploads/2016/03/simple-1.png');
+  
+}
+
+.bullet-custom {
+  background:url('http://www.webalot.de/wp-content/uploads/2016/03/custom.png');
+  
+}
+
+.bullet-seo {
+  background:url('http://www.webalot.de/wp-content/uploads/2016/03/seo.png');
+  
+}
+
+.bullet-analytics {
+  background:url('http://www.webalot.de/wp-content/uploads/2016/03/analytics.png');
+  
+}
+
+.bullet-multilang {
+  background:url('http://www.webalot.de/wp-content/uploads/2016/03/multilangual.png');
+}
+
+.bullet-extras {
+  background:url('http://www.webalot.de/wp-content/uploads/2016/03/extras-2.png');
+  
+}
+
+.bullet-custcontact {
+  background:url('http://www.webalot.de/wp-content/uploads/2016/03/erweiterung.png');
+}
+
+.bullet-icons {
+  background: url('http://www.webalot.de/wp-content/uploads/2016/03/customicons.png');
+}
+
+.bullet-imagephotos {
+  background: url('http://www.webalot.de/wp-content/uploads/2016/03/imagephotos.png');
+}
+
+
+#order-cart {
+margin: 0 auto;
+margin-bottom: 50px;
+width:80%;
+}
+
+#order-contact {
+font-weight: bold;
+text-align: right;
+border-bottom: 2px solid #E90E84;
+font-variant: small-caps;
+margin-bottom: 10px;
+padding-bottom: 5px;
+width: 80%;
+margin: 0 auto;
+}
+
+
+#order-form-send {
+width: 60%;
+margin: 0 auto;
+}
+
+
+#order-form {
+width: 80%;
+margin: 0px auto;
+}
+
+#order-form-text {
+width: 80%;
+margin: 0 auto;
+text-align: justify;
+}
+
+.col-xs-12 {
+width: 15%;
+margin-top: 1em;
+margin-left: 15%;
+}
+
+
+@media only screen and (max-width: 640px)  {
+
+#order-form {
+margin: 0 auto;
+}
+
+#order-form-send {
+margin: 0 auto;
+}
+
+	#order-flooring-list {
+		max-width: 355px;
+		margin: 0 auto;
+	}
+
+.col-xs-12 {
+width: 33%;
+margin-top: 1em;
+margin-left: 15%;
+
+#main-nav, #main-nav.fixed {
+	position:fixed;
+}
+
+
+#order-form-send {
+
+}
+
+}
+
+
+}
+</style>
+
+<script>
+
+var appname = angular.module('myapp', []);
+
+	appname.controller('OrderCtrl', ['$scope', '$http',
+	function($scope, $http) {
+	  
+
+    $scope.toppings = [
+		{id:'0', text:'Custom Design', subtext: 'Sie haben bereits eine genaue Vorstellung vom Design Ihrer Webseite? Wir erstellen einen Styleguide, der zu Ihrer Firma passt. So erhalten Sie Maßgeschneiderte Webseite.', done:false, price: 2500, cat: 'flooring', class: 'custom'},
+		{id:'1', text:'Analytics', subtext: 'Wir implementieren Trackingverfahren, damit Sie Wissen, wie sich Kunden auf Ihrer Webseite zurecht finden. Somit können Sie verfolgen, ob Ihre Ziele erfüllt werden.',  done:false, price: 400, cat: 'topping', class: 'analytics'},
+		{id:'2', text:'Soziale Netzwerke', subtext: 'Wir helfen Ihnen eine ganzheitliche Strategie zu entwickeln und umzusetzen, um Ihre Kunden über soziale Netzwerke zu erreichen', done:false, price: 160, cat: 'topping', class: 'social'},
+		{id:'3', text:'SEO-Optimierung', subtext: 'Sie wollen besser über Suchmaschinen gefunden werden? Wir kümmern uns um die OnPage und OffPage SEO-Optimierung Ihrer Webseite.', done:false, price: 1600, cat: 'topping', class: 'seo'},
+		{id:'4', text:'Mehrsprachigkeit', subtext: 'Wir verfügen über ein Netzwerk aus professionellen Übersetzern. Alternativ liefern Sie die Übersetzungen und wir implementieren eine Mehrsprachigkeit auf Ihrer Webseite.', done:false, price: 160, cat: 'topping', class: 'multilang'},
+		{id:'5', text:'Eigene Formulare', subtext: 'Ihre Kunden sollen über unterschiedliche Formulare mit Ihnen Kommunizieren? Wir bieten ansprechende und moderne Formulare, die zu Ihrer Corparate Identity passen.', done:false, price: 160, cat: 'topping', class: 'custcontact'},
+    {id:'6', text:'Custom Icons', subtext: 'Sie möchten eine noch individuellere Präsenz? Wir designen Icons und Logos, damit Sie Kunden bereits über Ihr Design wiedererkennen.', done:false, price: 160, cat: 'topping', class: 'icons'},
+{id:'7', text:'Image Photos', subtext: 'Photos machen eine Webseite so richtig schick. Wir haben bereits Erfahrungen mit Top-Fotografen.', done:false, price: 160, cat: 'topping', class: 'imagephotos'}];
+	  
+
+	  
+	  $scope.setSelected = function(section) {
+		/*$scope.selected = section;*/
+		if(!section.done)
+		{
+			section.done = true;
+			$scope.addOrderItem(section);	  
+		}
+		else
+		{
+			section.done = false;
+		  $scope.remOrderItem(section);
+		  
+		}
+	  }
+	  
+	 /* $scope.isSelected = function(section) {
+		return $scope.selected === section;
+		}*/
+	  
+	  $scope.addOrderItem = function(gotSection) {
+      //$scope.ordered.push({id:gotSection.id, text: gotSection.text, price: gotSection.price, done: true});
+	
+		  $scope.toppings[gotSection.id].done = true; // this is a real workaround for two pojo-lists
+		  
+      
+		  $scope.countOrder();
+		  
+		  jQuery(function(){
+			  var $button = jQuery(".bulletpic-"+gotSection.id ).clone();
+			  jQuery(".bulletpic-"+gotSection.id ).html($button);
+			  //jQuery($button).attr('class', 'newbullet');
+			  //jQuery( ".bulletpic-"+gotSection.id ).click(function() {
+			//  jQuery(".bulletpic-"+gotSection.id  ).animate({
+				//left: 1000,
+			//	bottom:2000
+			//  }, {
+			//	duration: 500
+			/*,
+				step: function( now, fx ){
+				  jQuery( ".bulletpic:gt(0)" ).css( "left", now );
+				}*/
+			  //});
+			//});
+			
+			$button.remove();
+			});
+		  
+
+		
+	  }
+	  
+	  $scope.remOrderItem = function(gotSection) {
+
+		  
+			angular.forEach($scope.toppings, function(ordereditem) {
+				if(ordereditem.id == gotSection.id) {
+					//whichlist.done = false;
+					$scope.countOrder();
+				}
+			});  	
+	  }
+
+	$scope.countOrder = function() {
+			var count = 0;
+		
+			angular.forEach($scope.toppings, function(topping) {
+
+				if(topping.done) {
+					count+=topping.price;
+				}
+
+			});
+			
+			
+			$scope.resultList = [];
+			var textToSend = "empty";
+
+			angular.forEach($scope.toppings, function(todo) {
+				if(todo.done == true)
+				{
+					$scope.resultList.push(todo.text);
+				}
+			});
+			
+			if($scope.resultList.length == 0)
+			{
+				$scope.resultList.push("Kein Feature für das Beratungsgespräch gewählt");
+			}
+			
+			return count;
+	  
+	  }
+
+	  $scope.remaining = function() {
+		var count = 0;
+		angular.forEach($scope.toppings, function(orderitem) {
+		  count += orderitem.done ? 0 : 1;
+		});
+		return count;
+	  };
+
+	  
+	   $scope.orderform = {name: '',
+							email: '',
+						   tel: ''};
+        
+        $scope.set = function(new_title) {
+            this.widget.title = new_title;
+        }
+	  
+	  
+	  $scope.orderContact= function() {
+
+		$scope.resultList = [];
+		var textToSend = "empty";
+
+		angular.forEach($scope.toppings, function(todo) {
+			if(todo.done == true)
+			{
+				$scope.resultList.push(todo.text);
+			}
+		});
+		
+		var textToSend = "";
+		angular.forEach($scope.resultList, function(todo3) {
+		  //textToSend += "text";
+		});
+
+		//alert($scope.resultList);
+
+		$scope.sendContactForm($scope.resultList);
+	  };
+
+
+
+    $scope.sendContactForm = function(orderdata) {
+        $http({ 
+            method: 'POST', 
+            url: '/wp-admin/admin-ajax.php', 
+            params: {
+                action: 'sendordermail',
+                //email: $scope.orderform.email,
+				//tel: $scope.orderform.tel,
+                comment: ' ' +$scope.orderform.name + ' ' +$scope.orderform.email+ ' ' +$scope.orderform.tel +' '+ orderdata
+            }
+        }).success(function(data, status, headers, config) {
+            $scope.contactFormSent = true;
+alert("Vielen Dank für Ihr Interesse! Wir melden uns bald bei Ihnen.");
+        }).error(function(data, status, headers, config) {
+		alert('error');
+        });
+    };
+
+
+	  //initial point
+	  $scope.countOrder();
+	  
+	}]);
+
+</script>
+
+	<section id="tarife">
+	<div ng-app="myapp">
+	  <div ng-controller="OrderCtrl">
+	  
+		<div id="order-menu">
+		  
+		  <div id="order-topping">
+		  
+			<h2 class="dark-text" style="font-size:45px;padding:5px;">
+			  Beratungsgespräch anfordern
+			</h2>
+			 
+			<h2 class="dark-text" style="font-size:1.75em;padding:5px;">
+			  Markieren Sie Features, die Sie besprechen möchten.
+			</h2>
+			<ul id="order-flooring-list" data-scrollreveal="enter left after 0.15s over 1s">
+				  <li ng-repeat="topping in toppings" >
+				<div style="height:155px;">
+						<div class="bulletpic bulletpic-{{topping.id}} order-{{topping.done}} bullet-{{topping.class}}" ng-model="topping.done" ng-click="setSelected(topping)">
+
+						</div>
+
+				</div>
+					<div id="order-icon-container">
+					<div id="order-icon-text">
+						{{topping.text}}
+					</div>
+					<div id="order-icon-subtext">
+						{{topping.subtext}}
+					</div>
+				</div>
+			  </li>
+			</ul>
+		  			
+			</div> <!--order-topping-->
+			<div id="order-form">
+				<div id="order-form-send">	
+				<h2 class="dark-text" style="font-size:30px;">Nutzen Sie unser Beratungsangbot</h2>
+					<input name="orderform.name" ng-model="orderform.name" placeholder="Name" style="width: 80%; margin: 10px;padding:10px;border-radius:5px;border:1px solid lightgray"></br>
+					<input name="orderform.email" ng-model="orderform.email" placeholder="E-Mail" style="width: 80%; margin: 10px;padding:10px;border-radius:5px;border:1px solid lightgray"></br>
+					<input name="orderform.tel" ng-model="orderform.tel" placeholder="Telefon" style="width: 80%; margin: 10px;padding:10px;border-radius:5px;border:1px solid lightgray">
+					<div id="order-form-text">
+						<p>Bei einem Gespräch können wir Ihr Vorhaben konkretisieren. Sie erhalten einen Überblick, welche Schritte nötig sind.</p>
+					</div>
+		
+
+					<div id="order-contact" ng-click="orderContact()"><a href="" style="display:block">Kostenloses Beratungsgespräch anfordern!</a>						
+					</div>
+				
+						<div id="order-cart">
+						<ul id="order-contact-list">
+						
+						  <li ng-repeat="cartitem in resultList" style="max-width:300px;float:right;">
+							<div id="order-icon-container" >
+								<div id="order-icon-text" style="font-size: 0.75em;">
+									{{cartitem}}
+								</div>
+							</div>
+						  </li>
+						</ul>								
+					<!--{{countOrder()}}€ {{remaining()}} of {{floorings.length}} remaining-->
+					</div> <!--order-cart-->		
+					
+				</div>
+
+				
+			</div><!--order-form-->
+		</div> <!--order-menu-->
+	  </div>  <!--orderCtrl-->
+	</div> <!--ng-app-->
