@@ -1,3 +1,7 @@
+=======================================
+=== Projektidee elivity, 2016-05-... ===
+=======================================
+
 Ziel
 ---
 Es soll eine Webapp für ein Bestellformular erstellt werden. Die Webapp soll Produkte auflisten und diese sollen per Klick in einen Warenkorb gelegt werden.
@@ -19,3 +23,34 @@ Ansicht als Admin
 
 Prototype Usermaske: Siehe prototype.html
 
+===================================
+=== Feedback Alpers, 2016-05-19 ===
+===================================
+
+Es wirkt leider so, als wenn Sie die Aufgabenstellung nicht richtig gelesen haben, weil zumindest eine formale Vorgabe nicht eingehalten wurde.
+
+Leider ist auch die Idee nicht gut im Sinne der Aufgabenstellung: Ihr Vorschlag ist ein Webshop. Hier haben Sie eine inhaltliche Vorgabe der Aufgabenstellung nicht beachtet.
+
+Erstellen Sie deshalb eine Beschreibung (entsprechend der Vorgaben aus der Aufgabenstellung) zu einer Adaption des folgenden Brettspiels als Anwendung, die die gewünschten Vorgaben in Punkto Interaktivität und Webbasierung erfüllt: Kohle http://www.brettspiele-report.de/kohle/
+
+Damit Sie nicht die gleichen Fehler machen wie viele Ihrer Kommilitonen, die diese Aufgabe lösen sollten, hier ein Feedback für ein anderes Projekt zur Orientierung:
+
+Leider ist Ihre Beschreibung noch deutlich zu nahe am Regelwerk des Brettspiels. Eine Beschreibung sollte in den ersten Zeilen Lust darauf machen, mehr zu erfahren.
+
+Überlegen Sie sich, wie Sie die Zusammenfassung und die Beschreibung ansprechender formulieren können. Die folgenden Fragen verdeutlichen, warum die Zusammenfassung gerade nicht als Teil einer Beschreibung geeignet sind:
+- Wen interessiert es, ob da nun 18, 19 oder 20 Spielfelder vorhanden sind?
+- Was um alles in der Welt sind 10 Siegpunkte?
+- usw.
+Eine Zusammenfassung sollte wie gesagt das Interesse am Spiel wecken, also müssen Sie darin in sehr knapper Form den Kern des Spiels zusammenfassen. Und der hat mit dem Zählen von Punkte oder der Anzahl von Spielfeldern nichts zu tun. Das selbe gilt für die folgenden Sätze, in denen Sie angeben, wie Spieler wie viele Punkte bekommen können.
+
+Denken Sie bitte auch daran, dass es nicht um eine 1:1-Umsetzung des Brettspiels selbst geht. Hier denke ich beispielsweise an die Spielerzahl: Es sollte möglich sein, dass ein Spieler das Spiel alleine spielen kann (Stichwort: Computergegner), aber schauen Sie auch, welche Möglichkeiten es gibt, um das Spiel für mehr als 5 Spieler anzupassen.
+
+Danach sollte die Beschreibung alle für Spieler relevanten Teile des Spiels beinhalten. Hier sind Sie leider auch zu nahe am Brettspiel: Bei einem Computerspiel werden keine Würfel geworfen. Die Projektbeschreibung ist also im Kern eine Inhaltsangabe. Der Unterschied gegenüber dem Deutschunterricht ist der, dass Sie ein Computerprogramm zusammenfassen müssen, das Sie selbst konzipieren sollen und für das einige Vorgaben einzuhalten sind.
+
+Für die Umsetzung in ein Computerspiel müssen Sie jetzt genau herausarbeiten, was für Interaktionsmöglichkeiten es geben soll. Die sind wiederum die Basis für die interaktiven unter den strukturellen Elementen. Und machen Sie hier bitte nicht den Fehler, die Elemente des Brettspiels als Elemente des Computerspiels umzusetzen.
+
+Hier noch ein Absatz zum Thema Interaktion: Die Schaltflächen, die NutzerInnen verwenden können sind nur die bedienbaren Elemente eines Computerprogramms. Interaktion ist wesentlich mehr als das. Denken Sie beispielsweise daran, wie eine Pokerrunde gespielt wird. Dabei spielt es nämlich eine Rolle, welche Karten abgeworfen wurden. Die Spieler (und bei einem Computerprogramm der Computer) analysieren kontinuierlich das Verhalten der anderen Spieler und ändern Ihren Spielstil in Abhängigkeit davon. Und genau das müssen Sie auch als Teil Ihres Projekts ausarbeiten und in die Projektbeschreibung integrieren.
+
+Hier die zweite Schwierigkeit: Sie müssen sich überlegen, was Sie alles streichen und was sie alles ergänzen müssen, damit es ein eigenständiges webbasiertes Computerspiel wird.
+
+Sie müssen bei der Projektkonzeption also insbesondere an Dinge denken, die in einem Brettspiel nicht vorkommen. Ein Log-In oder eine Highscore-Liste wären nur zwei von vielen Möglichkeiten, die hinzukommen. Die direkte Unterhaltung zwischen Spielern muss dagegen im Bedarfsfall anders gelöst werden. Und Aufgaben wie das Aufnehmen einer Karte, das verschieben eines Elements auf dem Spielbrett fallen häufig bei Computerspielen unter den Tisch.
